@@ -1,21 +1,39 @@
-# 🎥 YouTube Live Streaming Dashboard
+# YouTube Live Streaming Automation
 
-Dashboard untuk mengelola live streaming YouTube secara otomatis dengan fitur scheduling, looping video, dan automation.
+Sistem otomatisasi untuk streaming live YouTube dengan dashboard kontrol real-time, penjadwalan, dan manajemen video.
 
 ## Fitur Utama
-- ✅ **Live Streaming Management** - Kelola multiple channel
-- ✅ **Auto Scheduler** - Jadwalkan streaming otomatis
-- ✅ **Video Looping** - Manager untuk video berulang
-- ✅ **YouTube Automation** - Auto-upload, comments, analytics
-- ✅ **Real-time Dashboard** - Monitoring waktu nyata
 
-## Teknologi
-- HTML5, CSS3, JavaScript (ES6+)
-- Bootstrap 5 untuk UI
-- WebSocket untuk real-time updates
-- REST API untuk backend communication
+- **Multi-channel Management** - Kelola banyak channel YouTube sekaligus
+- **Real-time Dashboard** - Monitor status streaming secara live
+- **Auto Scheduling** - Jadwalkan live streaming otomatis
+- **Video Looping** - Putar video berulang untuk live stream
+- **WebSocket Updates** - Update real-time tanpa refresh halaman
+- **SQLite Database** - Penyimpanan data yang ringan dan cepat
 
-## Instalasi
-1. Clone repository:
-   ```bash
-   git clone https://github.com/username/youtube-streaming-dashboard.git
+## Teknologi Stack
+
+**Frontend:**
+- HTML5, CSS3, Vanilla JavaScript
+- Bootstrap 5 untuk UI components
+- Chart.js untuk statistik (rencana)
+
+**Backend:**
+- Node.js + Express.js
+- WebSocket (ws library)
+- SQLite3 database
+- Node Schedule untuk penjadwalan
+
+## Instalasi & Setup
+
+### Prerequisites
+- Node.js v16 atau lebih baru
+- NPM atau Yarn
+- Akun YouTube/Google dengan API access
+
+### Langkah Instalasi
+
+1. **Clone Repository**
+```bash
+git clone https://github.com/ploops-id/youtube-live-streaming.git
+cd youtube-live-streaming
